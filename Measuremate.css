@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-family: "Spartan", sans-serif;
+    background-image: url("https://i.pinimg.com/564x/2f/1f/69/2f1f69a5ff40dcaae508b9f0fb140121.jpg");
+    
+}
+main{
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+    padding: 2rem;
+    border-radius:0.3rem;
+    height: 30pc;
+    width: 30pc;
+    font-size: 20px;
+    opacity: 0.8;
+    
+}
+
+/* styling first section */
+.title_container{
+    text-align: center;
+    margin-bottom:2rem;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+/* styling second section */
+.amount_container{
+    margin-bottom:1.3rem;
+}
+
+.amount_container > input[type="number"]{
+    width:100%;
+    border:1px solid black;
+    padding:0.6rem;
+    margin-top:0.5rem;
+    outline:0;
+    border-radius: 10px;
+}
+
+
+/* styling third section */
+.unit_container{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:1.5rem;
+    border-radius: 10px;
+}
+
+.select_container > select{
+    border:1px solid black;
+    padding:0.5rem;
+    margin-top:0.5rem;
+    border-radius: 10px;
+}
+
+/* styling the icon to the middle */
+
+.middle > i{
+    margin-top:150%;
+}
+
+/* styling the fourth container: formular displayu */
+
+.formulae_container{
+    margin-bottom:1.4rem;
+    border-radius: 10px;
+    
+}
+
+.formulae_container > .title {
+    background-color:#65fffa;
+    color:rgb(0, 0, 0);
+    font-size:1.2rem;
+    padding:5px;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.formulae_container > .content{
+    font-size:0.8rem;
+}
+
+/* styling the fifth container: result container */
+.result_container{
+    margin-bottom:1.5rem;
+}
+
+.result_container > input[type="text"]{
+    border:1px solid black;
+    width:100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    outline:0;
+    border-radius: 10px;
+}
