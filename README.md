@@ -12,8 +12,6 @@ A simple and convenient length converter tool that allows you to easily convert 
 - Provides real-time results for efficient conversions.
 - Lightweight and platform-independent.
 
-   ```
-
 ## Usage 🚀
 
 1. Launch the tool by following the installation instructions above.
